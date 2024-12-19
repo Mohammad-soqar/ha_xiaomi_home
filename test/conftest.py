@@ -9,7 +9,7 @@ TEST_FILES_PATH: str = path.join(TEST_ROOT_PATH, 'miot')
 TEST_CACHE_PATH: str = path.join(TEST_ROOT_PATH, 'test_cache')
 TEST_LANG: str = 'zh-Hans'
 TEST_UID: str = '123456789'
-TEST_CLOUD_SERVER: str = 'cn'
+TEST_CLOUD_SERVER: str = 'cn'sss
 
 
 @pytest.fixture(scope='session', autouse=True)
